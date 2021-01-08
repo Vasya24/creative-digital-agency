@@ -7,8 +7,9 @@
 #top header {
     display: flex;
     align-items: center;
-    height: 115px;
+    height: 15vh;
     border-bottom: 1px solid #7d7d7d;
+
 }
 .logo-box {
     width: 79px;
@@ -67,4 +68,62 @@
     color: #f5f5f5;
     text-align: center;
     cursor: pointer;
+}
+#top-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: space-evenly;
+}
+#top-text h1 {
+    width: 820px;
+    font-size: 153px;
+    letter-spacing: -8px;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top-text h4 {
+    height: 20px;
+    font-size: 25px;
+    letter-spacing: 19px;
+    line-height: 51px;
+    color: #11749e;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top-scroll {
+    margin-left: auto;
+    margin-right: auto;
+}
+#top-scroll h6 {
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 21px;
+}
+#scroll {
+    width: 65px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: rgba(128,128,128,0);
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#scroll i {
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #f5f5f5;
+    text-align: center;
 }
