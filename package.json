@@ -18,5 +18,6 @@
   "homepage": "https://github.com/Vasya24/creative-digital-agency#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13"
-  }
+  },
+  "dependencies": {}
 }
