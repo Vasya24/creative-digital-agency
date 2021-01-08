@@ -1,0 +1,22 @@
+{
+  "name": "creative",
+  "version": "1.0.0",
+  "description": "Demo site for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasya24/creative-digital-agency.git"
+  },
+  "author": "Vasya24",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasya24/creative-digital-agency/issues"
+  },
+  "homepage": "https://github.com/Vasya24/creative-digital-agency#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}
