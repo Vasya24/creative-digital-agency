@@ -62,3 +62,29 @@
     font-family: "Gotham", sans-serif;
     text-align: center;
 }
+#blog-footer {
+    background-color: #11749e;
+    padding-top: 114px;
+    padding-bottom: 156px;
+}
+.blog-footer-content, .footer-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-footer-content i {
+    position: relative;
+    font-size: 69px;
+    display: block;
+    height: 100%;
+    color: #fff;
+    line-height: 150px;
+    margin-right: 34px;
+}
+.blog-footer-content p {
+    width: 451px;
+    height: 150px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+}
