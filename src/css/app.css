@@ -1,0 +1,44 @@
+#app {
+    height: 100vh;
+    background-image: url('./img/app.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.app-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-text {
+    width: 457px;
+}
+.app-text h3 {
+    font-size: 25px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+    margin-bottom: 40px;
+}
+.app-text p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    margin-bottom: 66px;
+}
+.advantages {
+    height: 38px;
+    background-color: #11749e;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+}
+.advantages:nth-last-child(n+2) {
+    margin-bottom: 23px;
+}
+
