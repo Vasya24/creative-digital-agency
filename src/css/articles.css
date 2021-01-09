@@ -1,0 +1,58 @@
+.row {
+    display: flex;
+    height: 50vh;
+}
+.row:nth-child(2) {
+    flex-direction: row-reverse;
+}
+.row-pic, .row-text {
+    width: 50vw;
+}
+.row:nth-child(1) .row-text {
+    background-color: #222222;
+}
+.row:nth-child(2) .row-text {
+    background-color: #f3f3f3;
+}
+.row:nth-child(1) .row-pic {
+    background-image: url("./img/grid-one.png");
+}
+.row:nth-child(2) .row-pic {
+    background-image: url("./img/grid-two.png");
+}
+.row-text {
+    display: flex;
+    align-items: center;
+}
+.row-text-box {
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    max-width: 469px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-text-box header {
+    margin-bottom: 43px;
+}
+.row-text-box header h3{
+    margin-top: 18px;
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.row-text-box p {
+    font-size: 15px;
+    line-height: 24px;
+}
+.date {
+    border-right: 2px solid #898989;
+    padding-right: 14px;
+}
+.category {
+    padding-left: 14px;
+}
+.row:nth-child(2) .row-text-box {
+    color: #222222;
+}

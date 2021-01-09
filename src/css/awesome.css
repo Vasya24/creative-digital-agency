@@ -1,0 +1,78 @@
+#awesome {
+    height: 100vh;
+    background-color: #11749e;
+    padding-top: 14vh;
+}
+#awesome-box {
+    height: 176px;
+    margin-bottom: 9vh;
+}
+#awesome-w {
+    font-size: 247px;
+    line-height: 211px;
+    color: #3c8daf;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+#awesome-sign {
+    height: 34px;
+    font-size: 38px;
+    line-height: 45px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 60%;
+    z-index: 2;
+}
+#awesome-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    width: 258px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-top {
+    width: 133px;
+    height: 133px;
+    border-radius: 67px;
+    background-color: #2e85aa;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.card-top i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px;
+    font-size: 32px;
+    color: #ffffff;
+}
+.card-title {
+    /*width: 170px;*/
+    height: 27px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.card-text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+}
