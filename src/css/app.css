@@ -37,6 +37,7 @@
     color: #ffffff;
     font-weight: 500;
     font-family: "Gotham", sans-serif;
+    padding-left: 19px;
 }
 .advantages:nth-last-child(n+2) {
     margin-bottom: 23px;

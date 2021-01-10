@@ -1,0 +1,80 @@
+#team {
+    padding-top: 14vh;
+}
+#team-box {
+    margin-bottom: 62px;
+}
+#team-t {
+    font-size: 247px;
+    line-height: 211px;
+    color: #d7d7d7;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+#team-sign {
+    height: 34px;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 88px;
+    z-index: 2;
+}
+#team-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+#team-box footer {
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 68px;
+}
+.team-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-card {
+    width: 270px;
+}
+.team-card img {
+    position: relative;
+    width: 100%;
+}
+.user-name-box {
+    width: 216px;
+    height: 117px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    text-align: center;
+    position: relative;
+    bottom: 48px;
+}
+.user-name {
+    font-size: 20px;
+    line-height: 24px;
+    color: #11749e;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+    margin-bottom: 13px;
+}
+.user-job {
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Gotham", sans-serif;
+}
